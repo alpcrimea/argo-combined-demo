@@ -12,5 +12,7 @@ patches:
     metadata:
       name: .*
     spec:
+      destination:
+        namespace: demo
       source:
-        repoURL: https://github.com/alpcrimea/argo-combined-demo
+        repoURL: https://github.com/alpcrimea/argo-combined-demo.git

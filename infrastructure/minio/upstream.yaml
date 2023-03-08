@@ -6,7 +6,7 @@ metadata:
   name: demo-minio-update-prometheus-secret
   labels:
     app: minio-update-prometheus-secret
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 ---
@@ -17,7 +17,7 @@ metadata:
   name: "demo-minio"
   labels:
     app: minio
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: "demo"
 ---
 # Source: upstream-deps/charts/minio/templates/secrets.yaml
@@ -27,7 +27,7 @@ metadata:
   name: demo-minio
   labels:
     app: minio
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 type: Opaque
@@ -42,7 +42,7 @@ metadata:
   name: demo-minio
   labels:
     app: minio
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 data:
@@ -149,7 +149,7 @@ metadata:
   name: demo-minio-update-prometheus-secret
   labels:
     app: minio-update-prometheus-secret
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 rules:
@@ -186,7 +186,7 @@ metadata:
   name: demo-minio-update-prometheus-secret
   labels:
     app: minio-update-prometheus-secret
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 roleRef:
@@ -204,7 +204,7 @@ metadata:
   name: demo-minio
   labels:
     app: minio
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 spec:
@@ -225,7 +225,7 @@ metadata:
   name: demo-minio
   labels:
     app: minio
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
 spec:
@@ -301,7 +301,7 @@ metadata:
   name: demo-minio-make-bucket-job
   labels:
     app: minio-make-bucket-job
-    chart: minio-7.2.1
+    chart: minio-5.0.7
     release: demo
     heritage: Helm
   annotations:

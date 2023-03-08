@@ -3,6 +3,4 @@ kind: Kustomization
 
 resources:
 - https://raw.githubusercontent.com/argoproj/argo-rollouts/v1.4.1/manifests/install.yaml
-
-patchesStrategicMerge:
 - argo-rollouts-clusterrole-binding.yaml
